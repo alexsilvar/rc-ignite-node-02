@@ -1,25 +1,25 @@
 # RF
 
-- [x] O usuário deve poder criar uma nova transação;
-- [x] O usuário deve poder obter um resumo da sua conta;
-- [x] O usuário deve poder listar todas transações que já ocorreram;
-- [x] O usuário deve poder visualizar uma transação única;
+-  [x] Deve ser possível criar um usuário
+-  [x] Deve ser possível identificar o usuário entre as requisições
+-  [x] Deve ser possível registrar uma refeição feita, com as seguintes informações:
+    *As refeições devem ser relacionadas a um usuário.*
+    - Nome
+    - Descrição
+    - Data e Hora
+    - Está dentro ou não da dieta
+- [x] Deve ser possível editar uma refeição, podendo alterar todos os dados acima
+- [x] Deve ser possível apagar uma refeição
+- [x] Deve ser possível listar todas as refeições de um usuário
+- [x] Deve ser possível visualizar uma única refeição
+- [x] Deve ser possível recuperar as métricas de um usuário
+    - Quantidade total de refeições registradas
+    - Quantidade total de refeições dentro da dieta
+    - Quantidade total de refeições fora da dieta
+    - Melhor sequência de refeições dentro da dieta
 
 # RN
 
 - [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá;
-- [ ] Deve ser possível identificarmos o usuário entre as requisições;
-- [ ] O usuário só pode visualizar transações o qual ele criou;
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
+- [x] Deve ser possível identificarmos o usuário entre as requisições;
+- [x] O usuário só pode visualizar refeições o qual ele criou;
